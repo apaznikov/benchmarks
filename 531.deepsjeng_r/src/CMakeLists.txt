@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(test_deepsjeng)
+set(CMAKE_BUILD_TYPE Debug)
+set(SOURCE_FILES attacks.cpp attacks.h bitboard.cpp bitboard.h bits.cpp bits.h board.cpp board.h config.h draw.cpp draw.h endgame.cpp endgame.h epd.cpp epd.h evpar.h extvars.h generate.cpp generate.h initp.cpp initp.h make.cpp make.h moves.cpp moves.h neval.cpp neval.h pawn.cpp pawn.h preproc.cpp preproc.h search.cpp search.h see.cpp see.h sjeng.cpp sjeng.h squares.h state.cpp state.h ttable.cpp ttable.h utils.cpp utils.h)
+add_executable(531.deepsjeng_r ${SOURCE_FILES})
