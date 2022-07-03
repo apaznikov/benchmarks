@@ -12,3 +12,9 @@ add_subdirectory(519.lbm_r/src)
 
 include_directories(531.deepsjeng_r/src)
 add_subdirectory(531.deepsjeng_r/src)
+
+include_directories(401.bzip2/src)
+add_subdirectory(401.bzip2/src)
+
+include_directories(456.hmmer/src)
+add_subdirectory(456.hmmer/src)
